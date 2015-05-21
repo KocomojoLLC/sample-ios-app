@@ -8,15 +8,36 @@
 
 #import "SimplePromotionViewController.h"
 
-@interface SimplePromotionViewController ()
+#import <KocomojoSDK/KocomojoSDK.h>
+#import <AFNetworking/UIImageView+AFNetworking.h>
 
-@end
-
-@implementation SimplePromotionViewController
+@implementation SimplePromotionViewController {
+    __weak IBOutlet UIImageView *_topImageView;
+    __weak IBOutlet UILabel *_titleLabel;
+    __weak IBOutlet UILabel *_descriptionLabel;
+    __weak IBOutlet UIButton *_checkInButton;
+    __weak IBOutlet UIActivityIndicatorView *_activityIndicator;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    if (_promotion.imageUrl != (id)[NSNull null]) {
+        [_topImageView setImageWithURL: [NSURL URLWithString:_promotion.imageUrl]];
+    }
+    
+    if (_promotion.header != (id)[NSNull null]) {
+        _titleLabel.text = _promotion.header;
+    }
+    
+    if (_promotion.text != (id)[NSNull null]) {
+        _descriptionLabel.text = _promotion.text;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +54,27 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)checkInButtonTouched:(id)sender {
+    _checkInButton.enabled = NO;
+    [_activityIndicator startAnimating];
+    
+    [[KocomojoManager sharedManager] checkIn:_promotion completion:^(KMCheckInResponse *response, NSError *error) {
+        _checkInButton.enabled = YES;
+        [_activityIndicator stopAnimating];
+
+        if (response.reward) {
+            [self performSegueWithIdentifier:@"RewardSegue" sender:self];
+        } else {
+            [self performSegueWithIdentifier:@"UnwindToParentSegue" sender:self];
+        }
+    }];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"RewardSegue"]) {
+        [segue.destinationViewController setPromotion:_promotion];
+    }
+}
 
 @end

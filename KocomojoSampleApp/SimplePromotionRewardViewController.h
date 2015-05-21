@@ -1,5 +1,5 @@
 //
-//  NearbyPromotionViewController.h
+//  SimplePromotionRewardViewController.h
 //  KocomojoSampleApp
 //
 //  Created by Stanislav Krasnoyarov on 21/05/15.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NearbyPromotionViewController : UITableViewController
+@class KMPromotion;
 
-- (IBAction)unwindToParent:(UIStoryboardSegue *)segue;
+@interface SimplePromotionRewardViewController : UIViewController
+
+@property KMPromotion *promotion;
 
 @end

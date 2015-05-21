@@ -18,6 +18,7 @@
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
 
     [[KocomojoManager sharedManager] setAppId:@"011a8195-82f3-55cb-a8d5-1f7de8dbbfd6"];
+    [[KocomojoManager sharedManager] stopTracking];
     [[KocomojoManager sharedManager] startTracking];
     return YES;
 }

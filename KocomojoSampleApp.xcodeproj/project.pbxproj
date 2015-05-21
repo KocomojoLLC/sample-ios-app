@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0ECC243267F2F19C9EDBF4B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C31C0A37C19754DFAB020D3 /* libPods.a */; };
+		3E3228361B0E272F000A3B4D /* 320x160.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E3228351B0E272F000A3B4D /* 320x160.gif */; };
+		3E54E45D1B0E33CA0041DBE1 /* SimplePromotionRewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E54E45C1B0E33CA0041DBE1 /* SimplePromotionRewardViewController.m */; };
 		3EAACBD31B0B7CA2000EEF1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAACBD21B0B7CA2000EEF1F /* main.m */; };
 		3EAACBD61B0B7CA2000EEF1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAACBD51B0B7CA2000EEF1F /* AppDelegate.m */; };
 		3EAACBDC1B0B7CA2000EEF1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAACBDA1B0B7CA2000EEF1F /* Main.storyboard */; };
@@ -16,11 +18,15 @@
 		3ECA4DD81B0E180500539CED /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA4DD71B0E180500539CED /* MenuViewController.m */; };
 		3ECA4DDB1B0E1B3700539CED /* NearbyPromotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA4DDA1B0E1B3700539CED /* NearbyPromotionViewController.m */; };
 		3ECA4DDE1B0E1E5100539CED /* SimplePromotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA4DDD1B0E1E5100539CED /* SimplePromotionViewController.m */; };
+		3EF367551B0E4A5D002D6010 /* kocomojo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF367541B0E4A5D002D6010 /* kocomojo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C31C0A37C19754DFAB020D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC0D3E40C35B56953D8D70E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3E3228351B0E272F000A3B4D /* 320x160.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 320x160.gif; sourceTree = "<group>"; };
+		3E54E45B1B0E33CA0041DBE1 /* SimplePromotionRewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePromotionRewardViewController.h; sourceTree = "<group>"; };
+		3E54E45C1B0E33CA0041DBE1 /* SimplePromotionRewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePromotionRewardViewController.m; sourceTree = "<group>"; };
 		3EAACBCD1B0B7CA2000EEF1F /* KocomojoSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KocomojoSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAACBD11B0B7CA2000EEF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EAACBD21B0B7CA2000EEF1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +41,7 @@
 		3ECA4DDA1B0E1B3700539CED /* NearbyPromotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyPromotionViewController.m; sourceTree = "<group>"; };
 		3ECA4DDC1B0E1E5100539CED /* SimplePromotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePromotionViewController.h; sourceTree = "<group>"; };
 		3ECA4DDD1B0E1E5100539CED /* SimplePromotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePromotionViewController.m; sourceTree = "<group>"; };
+		3EF367541B0E4A5D002D6010 /* kocomojo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kocomojo.png; sourceTree = "<group>"; };
 		C7ACAB494B0B8D9ED859E700 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +86,8 @@
 				3ECA4DDA1B0E1B3700539CED /* NearbyPromotionViewController.m */,
 				3ECA4DDC1B0E1E5100539CED /* SimplePromotionViewController.h */,
 				3ECA4DDD1B0E1E5100539CED /* SimplePromotionViewController.m */,
+				3E54E45B1B0E33CA0041DBE1 /* SimplePromotionRewardViewController.h */,
+				3E54E45C1B0E33CA0041DBE1 /* SimplePromotionRewardViewController.m */,
 				3EAACBDA1B0B7CA2000EEF1F /* Main.storyboard */,
 				3EAACBDD1B0B7CA2000EEF1F /* Images.xcassets */,
 				3EAACBDF1B0B7CA2000EEF1F /* LaunchScreen.xib */,
@@ -90,6 +99,8 @@
 		3EAACBD01B0B7CA2000EEF1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3EF367541B0E4A5D002D6010 /* kocomojo.png */,
+				3E3228351B0E272F000A3B4D /* 320x160.gif */,
 				3EAACBD11B0B7CA2000EEF1F /* Info.plist */,
 				3EAACBD21B0B7CA2000EEF1F /* main.m */,
 			);
@@ -173,8 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EAACBDC1B0B7CA2000EEF1F /* Main.storyboard in Resources */,
+				3EF367551B0E4A5D002D6010 /* kocomojo.png in Resources */,
 				3EAACBE11B0B7CA2000EEF1F /* LaunchScreen.xib in Resources */,
 				3EAACBDE1B0B7CA2000EEF1F /* Images.xcassets in Resources */,
+				3E3228361B0E272F000A3B4D /* 320x160.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ECA4DDE1B0E1E5100539CED /* SimplePromotionViewController.m in Sources */,
+				3E54E45D1B0E33CA0041DBE1 /* SimplePromotionRewardViewController.m in Sources */,
 				3EAACBD61B0B7CA2000EEF1F /* AppDelegate.m in Sources */,
 				3ECA4DDB1B0E1B3700539CED /* NearbyPromotionViewController.m in Sources */,
 				3EAACBD31B0B7CA2000EEF1F /* main.m in Sources */,
