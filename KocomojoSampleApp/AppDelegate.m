@@ -8,15 +8,17 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
-
-@end
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <KocomojoSDK/KocomojoSDK.h>
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+
+    [[KocomojoManager sharedManager] setAppId:@"011a8195-82f3-55cb-a8d5-1f7de8dbbfd6"];
+    [[KocomojoManager sharedManager] startTracking];
     return YES;
 }
 

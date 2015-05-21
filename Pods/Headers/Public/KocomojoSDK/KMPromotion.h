@@ -1,0 +1,1 @@
+../../../KocomojoSDK/KocomojoSDK.framework/Headers/KMPromotion.h

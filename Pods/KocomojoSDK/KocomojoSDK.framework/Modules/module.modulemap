@@ -1,0 +1,6 @@
+framework module KocomojoSDK {
+  umbrella header "KocomojoSDK.h"
+
+  export *
+  module * { export * }
+}
