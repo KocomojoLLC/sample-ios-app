@@ -12,7 +12,7 @@
 
 @import NotificationCenter;
 
-@class KMPromotion, KMReward, KMImage, KMCheckInResponse;
+@class KMPromotion, KMReward, KMPromotionState;
 
 
 @protocol KocomojoManagerDelegate <NSObject>
@@ -40,8 +40,7 @@
 - (void)startTracking;
 - (void)stopTracking;
 
-//- (void)isCheckInAvailableForPromotion:(KMPromotion *)promotion completion:(void (^)(BOOL result, NSError *error))completion;
-- (void)checkIn:(KMPromotion *)promotion completion:(void (^)(KMCheckInResponse *response, NSError *error))completion;
+- (void)checkIn:(KMPromotion *)promotion completion:(void (^)(KMPromotionState *promotionState, NSError *error))completion;
 
 - (void)didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 - (void)didReceiveLocalNotification:(UILocalNotification *)notification;

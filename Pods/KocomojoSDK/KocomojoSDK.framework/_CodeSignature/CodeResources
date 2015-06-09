@@ -8,21 +8,17 @@
 		<data>
 		96TEjLwVtbOmrfkiRuI9Ueua/Kc=
 		</data>
-		<key>Headers/KMCheckInResponse.h</key>
-		<data>
-		+wGMRf+/G6TTLhAed1NJKKIsPLM=
-		</data>
-		<key>Headers/KMImage.h</key>
-		<data>
-		3207ODdjLH4hrAXNhtaDt2izjjs=
-		</data>
 		<key>Headers/KMLocationManagerDelegate.h</key>
 		<data>
 		Uvc0N5THqn3zGMr0FqNsH6K9DDU=
 		</data>
 		<key>Headers/KMPromotion.h</key>
 		<data>
-		ZpN0Ms4EU+7aM6fXZukDl+Dz7dE=
+		675EMGFR5rQTXOVg59Rl7bqv6bY=
+		</data>
+		<key>Headers/KMPromotionState.h</key>
+		<data>
+		INBqCVMBlob5EYhXq7T3AguK600=
 		</data>
 		<key>Headers/KMReward.h</key>
 		<data>
@@ -30,19 +26,15 @@
 		</data>
 		<key>Headers/KocomojoManager.h</key>
 		<data>
-		/j+C2QMeo0sF4WDg7xUoUtjH03M=
+		7IVGFcB+zF9LvRje0qWFyR+q7eE=
 		</data>
 		<key>Headers/KocomojoSDK.h</key>
 		<data>
-		q9Mv2IKzYBjKlPkWzlXhtouV4Tw=
+		aAMfu3DXmQA3tnIlWzc4tLfFauE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z+b/WPZE3omfS1q293JcRl8DZSM=
-		</data>
-		<key>KocomojoSDK.podspec</key>
-		<data>
-		5/4kcrik8tZCbQ15zKUZmIVJNcI=
+		K17jbMoA6RsX6kw7KnOCLdlF2yM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,21 +47,17 @@
 		<data>
 		96TEjLwVtbOmrfkiRuI9Ueua/Kc=
 		</data>
-		<key>Headers/KMCheckInResponse.h</key>
-		<data>
-		+wGMRf+/G6TTLhAed1NJKKIsPLM=
-		</data>
-		<key>Headers/KMImage.h</key>
-		<data>
-		3207ODdjLH4hrAXNhtaDt2izjjs=
-		</data>
 		<key>Headers/KMLocationManagerDelegate.h</key>
 		<data>
 		Uvc0N5THqn3zGMr0FqNsH6K9DDU=
 		</data>
 		<key>Headers/KMPromotion.h</key>
 		<data>
-		ZpN0Ms4EU+7aM6fXZukDl+Dz7dE=
+		675EMGFR5rQTXOVg59Rl7bqv6bY=
+		</data>
+		<key>Headers/KMPromotionState.h</key>
+		<data>
+		INBqCVMBlob5EYhXq7T3AguK600=
 		</data>
 		<key>Headers/KMReward.h</key>
 		<data>
@@ -77,15 +65,11 @@
 		</data>
 		<key>Headers/KocomojoManager.h</key>
 		<data>
-		/j+C2QMeo0sF4WDg7xUoUtjH03M=
+		7IVGFcB+zF9LvRje0qWFyR+q7eE=
 		</data>
 		<key>Headers/KocomojoSDK.h</key>
 		<data>
-		q9Mv2IKzYBjKlPkWzlXhtouV4Tw=
-		</data>
-		<key>KocomojoSDK.podspec</key>
-		<data>
-		5/4kcrik8tZCbQ15zKUZmIVJNcI=
+		aAMfu3DXmQA3tnIlWzc4tLfFauE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

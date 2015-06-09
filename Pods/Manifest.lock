@@ -29,22 +29,18 @@ PODS:
   - CocoaLumberjack/Extensions (2.0.0-rc2):
     - CocoaLumberjack/Default
   - ECSlidingViewController (2.0.3)
-  - KocomojoSDK (0.1.0):
+  - KocomojoSDK (0.9.0):
     - AFNetworking (~> 2.0)
     - CocoaLumberjack (= 2.0.0-rc2)
 
 DEPENDENCIES:
   - ECSlidingViewController (~> 2.0.3)
-  - KocomojoSDK (from `/Users/alvin777/Projects/Kocomojo/KocomojoSampleApp/KocomojoSDK/KocomojoSDK.podspec`)
-
-EXTERNAL SOURCES:
-  KocomojoSDK:
-    :podspec: "/Users/alvin777/Projects/Kocomojo/KocomojoSampleApp/KocomojoSDK/KocomojoSDK.podspec"
+  - KocomojoSDK (~> 0.9)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   CocoaLumberjack: dd725ca9088af37f16f957f6d88fbed69d54381c
   ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
-  KocomojoSDK: 992856df003b067575bd42435d11c567864ce303
+  KocomojoSDK: ffb841d91b9bd40f9258ada02575ffd4195364a5
 
-COCOAPODS: 0.37.1
+COCOAPODS: 0.37.2

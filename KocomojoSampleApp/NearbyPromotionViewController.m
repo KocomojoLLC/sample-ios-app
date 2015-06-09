@@ -87,8 +87,8 @@
     
     KMPromotion *promotion = _promotions[indexPath.row];
     
-    cell.textLabel.text = promotion.header;
-    cell.detailTextLabel.text = promotion.blurb;
+    cell.textLabel.text = promotion.title;
+    cell.detailTextLabel.text = promotion.tagline;
     
     return cell;
 }
@@ -99,10 +99,9 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    
-    KMPromotion *promotion = _promotions[[self.tableView indexPathForSelectedRow].row];
 
     if ([segue.identifier isEqualToString:@"ShowPromotion"]) {
+        KMPromotion *promotion = _promotions[[self.tableView indexPathForSelectedRow].row];
         [segue.destinationViewController setPromotion:promotion];
     }
 }

@@ -27,17 +27,12 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
-    if (_promotion.imageUrl != (id)[NSNull null]) {
+    if (_promotion.imageUrl) {
         [_topImageView setImageWithURL: [NSURL URLWithString:_promotion.imageUrl]];
     }
     
-    if (_promotion.header != (id)[NSNull null]) {
-        _titleLabel.text = _promotion.header;
-    }
-    
-    if (_promotion.text != (id)[NSNull null]) {
-        _descriptionLabel.text = _promotion.text;
-    }
+    _titleLabel.text = _promotion.title;
+    _descriptionLabel.text = _promotion.descriptionText;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -59,11 +54,11 @@
     _checkInButton.enabled = NO;
     [_activityIndicator startAnimating];
     
-    [[KocomojoManager sharedManager] checkIn:_promotion completion:^(KMCheckInResponse *response, NSError *error) {
+    [[KocomojoManager sharedManager] checkIn:_promotion completion:^(KMPromotionState *state, NSError *error) {
         _checkInButton.enabled = YES;
         [_activityIndicator stopAnimating];
 
-        if (response.reward) {
+        if (state.reward) {
             [self performSegueWithIdentifier:@"RewardSegue" sender:self];
         } else {
             [self performSegueWithIdentifier:@"UnwindToParentSegue" sender:self];
