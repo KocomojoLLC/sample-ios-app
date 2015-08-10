@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  KocomojoSampleApp
 //
-//  Created by Stanislav Krasnoyarov on 19/05/15.
-//  Copyright (c) 2015 Kocomojo. All rights reserved.
+//  Distribution, publication or any other public use or commercial exploitation is prohibited.
+//  Copyright 2015 Kocomojo, LLC.
 //
 
 #import "AppDelegate.h"
