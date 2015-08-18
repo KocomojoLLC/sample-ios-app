@@ -142,16 +142,7 @@ Test check-in action by tapping the button. If all promotion criteria are valid 
 2. Add `@property KMReward *reward;` to the class interface.
 3. Create `UILabel *` objects for reward title, description and `UIImageView *` for the reward image.
 4. Bind reward fields to the labels and the image view in `viewWillAppear:` method.
-5. Add `UIButton *` for the reward claim action and bind it to the handler:
-
-    ```
-    - (IBAction)claimRewardButtonTouched:(id)sender {
-        [[KocomojoManager sharedManager] claimReward:_reward completion:^(KMPromotionState *state, NSError *error) {
-           ...
-        }];
-    }
-    ```
-1. Show reward view when promotion view controller check-in completion callback called with promotion state reward equal to `YES`.
+5. Show reward view when promotion view controller check-in completion callback called with promotion state reward equal to `YES`.
 
     ```
     - (IBAction)checkInButtonTouched:(id)sender {
