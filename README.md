@@ -5,7 +5,9 @@ Kocomojo is a location-based marketing service.
 
 ## Getting Started
 ### Install the library
+
 **CocoaPods**
+
 CocoaPods is preferred way to install Kocomojo iOS SDK. Install [CocoaPods](https://cocoapods.org/) and add following lines to your Podfile:
 
 	platform :ios, '7.0'
