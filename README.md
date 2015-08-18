@@ -1,12 +1,12 @@
 
-#KocoConnect iOS SDK
+#Kocomojo iOS SDK
 
-KocoConnect is a location-based marketing service.
+Kocomojo is a location-based marketing service.
 
 ## Getting Started
 ### Install the library
 **CocoaPods**
-CocoaPods is preferred way to install KocoConnect iOS SDK. Install [CocoaPods](https://cocoapods.org/) and add following lines to your Podfile:
+CocoaPods is preferred way to install Kocomojo iOS SDK. Install [CocoaPods](https://cocoapods.org/) and add following lines to your Podfile:
 
 	platform :ios, '7.0'
     pod 'KocomojoSDK', '~> 0.9'
@@ -28,7 +28,7 @@ Run `pod install` and don't forget to use .xcworkspace instead of .xcodeproj.
 
 ### Insert API Key
 
-1. Open [KocoConnect Dashboard](https://admin.kocomojo.net/admin/index.html#/dashboard) and sign-in using your username and password.
+1. Open [Kocomojo Dashboard](https://admin.kocomojo.net/admin/index.html#/dashboard) and sign-in using your username and password.
 2. Click 'MOBILE APPS' in the sideboard.
 3. Select an app in the list.
 3. Click 'Show' button.
@@ -100,7 +100,7 @@ To create a nearby promotions view do the following:
 
     ```
 
-To test the code you should configure new promotion using KocoConnect admin dashboard. If the beacon is in sight or you are in the geofence borders promotion should appear in the list.
+To test the code you should configure new promotion using Kocomojo admin dashboard. If the beacon is in sight or you are in the geofence borders promotion should appear in the list.
 
 ### Implement promotion view
 
