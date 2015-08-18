@@ -41,6 +41,6 @@ SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   CocoaLumberjack: dd725ca9088af37f16f957f6d88fbed69d54381c
   ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
-  KocomojoSDK: ffb841d91b9bd40f9258ada02575ffd4195364a5
+  KocomojoSDK: cec85699b088573256f2cbf16ac4d908191335d1
 
 COCOAPODS: 0.37.2

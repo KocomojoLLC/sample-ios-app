@@ -4,33 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/KMBoundary.h</key>
-		<data>
-		96TEjLwVtbOmrfkiRuI9Ueua/Kc=
-		</data>
-		<key>Headers/KMLocationManagerDelegate.h</key>
-		<data>
-		Uvc0N5THqn3zGMr0FqNsH6K9DDU=
-		</data>
 		<key>Headers/KMPromotion.h</key>
 		<data>
-		675EMGFR5rQTXOVg59Rl7bqv6bY=
+		gd6nJf8aMmlTwlIoulaFHUATj90=
 		</data>
 		<key>Headers/KMPromotionState.h</key>
 		<data>
-		INBqCVMBlob5EYhXq7T3AguK600=
+		z3faLnLBIJJgf8kq6uUYmoW5dHk=
 		</data>
 		<key>Headers/KMReward.h</key>
 		<data>
-		q+sW+1YJYf4xFbjg4W2MHCQcrkk=
+		ZF86cgXwM0ut0Fue+0wGKlpNMRM=
 		</data>
 		<key>Headers/KocomojoManager.h</key>
 		<data>
-		7IVGFcB+zF9LvRje0qWFyR+q7eE=
+		aNKUiEpAJW29OwON3vcaqE61/pQ=
 		</data>
 		<key>Headers/KocomojoSDK.h</key>
 		<data>
-		aAMfu3DXmQA3tnIlWzc4tLfFauE=
+		aWm7bQsyFlag2QNNWe4/z2BPzo0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,33 +35,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/KMBoundary.h</key>
-		<data>
-		96TEjLwVtbOmrfkiRuI9Ueua/Kc=
-		</data>
-		<key>Headers/KMLocationManagerDelegate.h</key>
-		<data>
-		Uvc0N5THqn3zGMr0FqNsH6K9DDU=
-		</data>
 		<key>Headers/KMPromotion.h</key>
 		<data>
-		675EMGFR5rQTXOVg59Rl7bqv6bY=
+		gd6nJf8aMmlTwlIoulaFHUATj90=
 		</data>
 		<key>Headers/KMPromotionState.h</key>
 		<data>
-		INBqCVMBlob5EYhXq7T3AguK600=
+		z3faLnLBIJJgf8kq6uUYmoW5dHk=
 		</data>
 		<key>Headers/KMReward.h</key>
 		<data>
-		q+sW+1YJYf4xFbjg4W2MHCQcrkk=
+		ZF86cgXwM0ut0Fue+0wGKlpNMRM=
 		</data>
 		<key>Headers/KocomojoManager.h</key>
 		<data>
-		7IVGFcB+zF9LvRje0qWFyR+q7eE=
+		aNKUiEpAJW29OwON3vcaqE61/pQ=
 		</data>
 		<key>Headers/KocomojoSDK.h</key>
 		<data>
-		aAMfu3DXmQA3tnIlWzc4tLfFauE=
+		aWm7bQsyFlag2QNNWe4/z2BPzo0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

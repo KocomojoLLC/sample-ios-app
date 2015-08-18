@@ -25,17 +25,10 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    if (_promotion.reward.imageUrl != (id)[NSNull null]) {
-        [_topImageView setImageWithURL: [NSURL URLWithString:_promotion.reward.imageUrl]];
-    }
+    [_topImageView setImageWithURL: [NSURL URLWithString:_promotion.reward.imageUrl]];
     
-    if (_promotion.reward.header != (id)[NSNull null]) {
-        _titleLabel.text = _promotion.reward.header;
-    }
-    
-    if (_promotion.reward.text != (id)[NSNull null]) {
-        _descriptionLabel.text = _promotion.reward.text;
-    }
+    _titleLabel.text = _promotion.reward.title;
+    _descriptionLabel.text = _promotion.reward.descriptionText;
 }
 
 - (void)didReceiveMemoryWarning {

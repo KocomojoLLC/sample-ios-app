@@ -17,7 +17,7 @@
     // Override point for customization after application launch.
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
 
-    [[KocomojoManager sharedManager] setAppId:<App id>];
+    [[KocomojoManager sharedManager] setApiKey:<App id>];
     [[KocomojoManager sharedManager] stopTracking];
     [[KocomojoManager sharedManager] startTracking];
     return YES;

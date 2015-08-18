@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "KocomojoManager.h"
-#import "KMPromotionState.h"
-#import "KMPromotion.h"
-#import "KMReward.h"
-#import "KMBoundary.h"
+#import <KocomojoSDK/KocomojoManager.h>
+#import <KocomojoSDK/KMPromotionState.h>
+#import <KocomojoSDK/KMPromotion.h>
+#import <KocomojoSDK/KMReward.h>
+
 
 //! Project version number for KocomojoSDK.
 FOUNDATION_EXPORT double KocomojoSDKVersionNumber;
