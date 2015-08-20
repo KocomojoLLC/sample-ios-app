@@ -29,9 +29,9 @@
       </header>
       <section>
         <h1>
-<a id="kococonnect-ios-sdk" class="anchor" href="#kococonnect-ios-sdk" aria-hidden="true"><span class="octicon octicon-link"></span></a>KocoConnect iOS SDK</h1>
+<a id="kocomojo-ios-sdk" class="anchor" href="#kocomojo-ios-sdk" aria-hidden="true"><span class="octicon octicon-link"></span></a>Kocomojo iOS SDK</h1>
 
-<p>KocoConnect is a location-based marketing service.</p>
+<p>Kocomojo is a location-based marketing service.</p>
 
 <h2>
 <a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h2>
@@ -39,8 +39,9 @@
 <h3>
 <a id="install-the-library" class="anchor" href="#install-the-library" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install the library</h3>
 
-<p><strong>CocoaPods</strong>
-CocoaPods is preferred way to install KocoConnect iOS SDK. Install <a href="https://cocoapods.org/">CocoaPods</a> and add following lines to your Podfile:</p>
+<p><strong>CocoaPods</strong></p>
+
+<p>CocoaPods is preferred way to install Kocomojo iOS SDK. Install <a href="https://cocoapods.org/">CocoaPods</a> and add following lines to your Podfile:</p>
 
 <pre><code>platform :ios, '7.0'
 pod 'KocomojoSDK', '~&gt; 0.9'
@@ -71,7 +72,7 @@ pod 'KocomojoSDK', '~&gt; 0.9'
 <a id="insert-api-key" class="anchor" href="#insert-api-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>Insert API Key</h3>
 
 <ol>
-<li>Open <a href="https://admin.kocomojo.net/admin/index.html#/dashboard">KocoConnect Dashboard</a> and sign-in using your username and password.</li>
+<li>Open <a href="https://admin.kocomojo.net/admin/index.html#/dashboard">Kocomojo Dashboard</a> and sign-in using your username and password.</li>
 <li>Click 'MOBILE APPS' in the sideboard.</li>
 <li>Select an app in the list.</li>
 <li>Click 'Show' button.</li>
@@ -152,7 +153,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 </li>
 </ol>
 
-<p>To test the code you should configure new promotion using KocoConnect admin dashboard. If the beacon is in sight or you are in the geofence borders promotion should appear in the list.</p>
+<p>To test the code you should configure new promotion using Kocomojo admin dashboard. If the beacon is in sight or you are in the geofence borders promotion should appear in the list.</p>
 
 <h3>
 <a id="implement-promotion-view" class="anchor" href="#implement-promotion-view" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implement promotion view</h3>
@@ -201,16 +202,6 @@ If using segues create a segue in storyboard from the table view cell to a promo
 <li>Add <code>@property KMReward *reward;</code> to the class interface.</li>
 <li>Create <code>UILabel *</code> objects for reward title, description and <code>UIImageView *</code> for the reward image.</li>
 <li>Bind reward fields to the labels and the image view in <code>viewWillAppear:</code> method.</li>
-<li>
-<p>Add <code>UIButton *</code> for the reward claim action and bind it to the handler:</p>
-
-<pre><code>- (IBAction)claimRewardButtonTouched:(id)sender {
-    [[KocomojoManager sharedManager] claimReward:_reward completion:^(KMPromotionState *state, NSError *error) {
-       ...
-    }];
-}
-</code></pre>
-</li>
 <li>
 <p>Show reward view when promotion view controller check-in completion callback called with promotion state reward equal to <code>YES</code>.</p>
 
